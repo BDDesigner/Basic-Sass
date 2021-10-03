@@ -1,0 +1,98 @@
+/* Reset css */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* color variable */
+header {
+  background: green;
+}
+
+nav {
+  margin-top: 80px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  padding: 25px;
+  display: inline-block;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+nav li a:hover {
+  background-color: red;
+  color: #fff;
+}
+
+main {
+  background-color: #000;
+}
+
+footer {
+  background-color: #666;
+}
+
+.first p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 15px;
+  line-height: 25px;
+  padding: 10px;
+}
+
+.second p {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 15px;
+  line-height: 25px;
+  padding: 10px;
+}
+
+.first h2 {
+  font-size: 100px;
+  color: #ddd;
+  font-weight: 900;
+  text-align: center;
+}
+
+.second h2 {
+  font-size: 50px;
+  color: #ddd;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn, .download, .more {
+  border: none;
+  font-size: 22px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+}
+
+.download {
+  background-color: red;
+}
+
+.more {
+  background-color: green;
+}
+/*# sourceMappingURL=demo.css.map */
